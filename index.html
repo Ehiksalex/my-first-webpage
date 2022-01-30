@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Third HTML Assignment</title>
+  </head>
+<body>
+    <h1>Welcome To My Webpage</h1>
+    <!--Anchor Tags-->
+    <a href="others/about.html">about</a>
+    <a href="others/contact.html">contact</a>
+    <a href="others/blog.html">blog</a>
+    <!--Form Creating-->
+    <form action="">
+      <!--For firstName-->
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <!--For LastName-->
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <!--For Email-->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <!--For Required Password-->
+      <label for="password">Password:</label>
+      <input type="text" id="password" name="password" required><br><br>
+      <!--For Gender with options to choose from-->
+      <p> Select your gender</p>
+      <input type="radio" id="male"value="Male">
+	    <label for="male">Male</label><br>
+      <input type="radio" id="female"value="female">
+	    <label for="female">Female</label><br>
+      <input type="radio" id="rather not say"value="rather not say">
+	    <label for="rather not say">Rather not say</label><br>
+      <!--For Favorite Food-->
+      <p> What are your favorite food:</p>
+      <input type="checkbox" id="food1" name="food1" value="Beans">
+      <label for="food1"> Beans</label><br>
+      <input type="checkbox" id="food2" name="food2" value="Rice">
+      <label for="food2"> Rice</label><br>
+      <input type="checkbox" id="food3" name="food3" value="Spaghetti">
+      <label for="food3"> Spaghetti</label><br>
+      <input type="checkbox" id="food4" name="food4" value="Soup">
+      <label for="food4"> Soup</label><br>
+      <input type="checkbox" id="food5" name="food5" value="Pizza">
+      <label for="food5"> Pizza</label><br>
+      <!--for Select Tag-->
+      <label for="certificate">Choose a degree:</label>
+      <select name="certificate" id="certificate">
+        <option value="FSLC">FSLC</option>
+        <option value="O'Level">O'Level</option>
+        <option value="BSC">BSC</option>
+      </select>
+      <br><br>
+      <!--for phone number-->
+      <label for="phone">Enter a phone number:</label><br><br>
+      <input type="tel" id="phone" name="phone" placeholder="234-07-2345-6789" required><br><br>
+      <!--Using Textarea-->
+      <label for="text">Tell us about yourself</label>
+      <textarea name="text" id="text"></textarea><br><br>
+      <!--For Submit-->
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
